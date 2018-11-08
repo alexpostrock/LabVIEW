@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<Tree localize="yes">
+	<Node>
+		<Name localize="yes">Section Header</Name>
+		<GUID>{68db484e-e3c3-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">Real-Time Project</Name>
+		<GUID>{162785f8-e6e4-4c31-81fd-6d2ad0839bc0}</GUID>
+		<ParentGUID>{68db484e-e3c3-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>1</Column>
+		<Handler>ProjectWizardClickableText</Handler>
+		<Description localize="yes">Creates a LabVIEW project with the Real-Time Project Wizard.</Description>
+		<Weight>0</Weight>
+		<Wizard>resource/plugins/NewDialogFiles/ProjectWizards/ProjectWizard.llb/ProjectWizard Host.vi</Wizard>
+		<WizardArg>resource/plugins/NewDialogFiles/ProjectWizards/RTNPA/RTNPA.llb/RTNPA Client.vi</WizardArg>
+		<Type>RT Project Wizard</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">Placeholder</Name>
+		<GUID>{71b65cfa-e3c4-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{68db484e-e3c3-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">Placeholder</Name>
+		<GUID>{71b65cfa-e3c4-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{00bfa68e-e3c4-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">More...</Name>
+		<GUID>{28b54806-e3c4-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{00bfa68e-e3c4-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>Folder</Type>
+	</Node>
+
+
+	<Node>
+		<Name localize="yes">Section Header 2</Name>
+		<GUID>{5de87638-e3c4-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">Browse...</Name>
+		<GUID>{7fe690c6-e3c4-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{5de87638-e3c4-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>1</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com</URL>
+		<Type>Folder</Type>
+	</Node>
+
+
+	<Node>
+		<Name localize="yes">New To LabVIEW?</Name>
+		<GUID>{04992e91-f589-4834-b376-c7b3c81b79b4}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>2</Column>
+		<Handler>Manual</Handler>
+		<Manual>manuals/LV_Getting_Started.pdf</Manual>
+		<Description localize="yes">Displays the Getting Started with LabVIEW manual. Use this manual as a tutorial to familiarize yourself with the LabVIEW graphical programming environment and the basic LabVIEW features.</Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Getting Started with LabVIEW</Name>
+		<GUID>{9ffaf261-b358-41ed-bbe1-5f9be92ec94e}</GUID>
+		<ParentGUID>{04992e91-f589-4834-b376-c7b3c81b79b4}</ParentGUID>
+		<Column>2</Column>
+		<Handler >Manual</Handler>
+		<Manual>manuals/LV_Getting_Started.pdf</Manual>
+		<Description localize="yes">Displays the Getting Started with LabVIEW manual. Use this manual as a tutorial to familiarize yourself with the LabVIEW graphical programming environment and the basic LabVIEW features.</Description>
+		<Weight>100</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">LabVIEW Fundamentals</Name>
+		<GUID>{c4124ef1-a1c8-4f80-be6f-98f652fbee2c}</GUID>
+		<ParentGUID>{04992e91-f589-4834-b376-c7b3c81b79b4}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Help</Handler>
+		<HelpFile>lvconcepts.chm</HelpFile>
+		<Topic>LabVIEW_Fundamentals.html</Topic>
+		<Description localize="yes">Opens the LabVIEW Help to the Fundamentals section. Use this section to learn about LabVIEW programming concepts, techniques, and features and for step-by-step instructions for using LabVIEW features.</Description>
+		<Weight>200</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Guide to LabVIEW Documentation</Name>
+		<GUID>{370edb75-5535-4249-bc79-85aa7f84002a}</GUID>
+		<ParentGUID>{04992e91-f589-4834-b376-c7b3c81b79b4}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Help</Handler>
+		<HelpFile>lvconcepts.chm</HelpFile>
+		<Topic>LabVIEW_Documentation_Resources.html</Topic>
+		<Description localize="yes">Displays a list of installed documentation resources.</Description>
+		<Weight>300</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">LabVIEW Help</Name>
+		<GUID>{eb96e4d8-0d36-4566-b7d0-8ed6f24e9108}</GUID>
+		<ParentGUID>{04992e91-f589-4834-b376-c7b3c81b79b4}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Help</Handler>
+		<HelpFile>lvhelp.chm</HelpFile>
+		<Topic>LabVIEW_Help.html</Topic>
+		<Description localize="yes">Displays the LabVIEW Help. Use this help file to learn about LabVIEW programming concepts, to follow how-to instructions for using LabVIEW features, and as a reference for information about LabVIEW objects.</Description>
+		<Weight>400</Weight>
+	</Node>
+
+
+	<Node>
+		<Name localize="yes">Web Links</Name>
+		<GUID>{3c6fdb4a-f993-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/</URL>
+		<Description localize="yes"></Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Eyes on VIs (LabVIEW Blog)</Name>
+		<GUID>{529327fa-f994-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{3c6fdb4a-f993-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://eyesonvis.blogspot.com/</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">Darren's Weekly Nuggets</Name>
+		<GUID>{1114d096-e3c8-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{3c6fdb4a-f993-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://zone.ni.com/devzone/cda/tut/p/id/5720</URL>
+		<Type>None</Type>
+	</Node>
+	<Node>
+		<Name localize="yes">LAVA</Name>
+		<GUID>{86c5c2e7-6946-4a74-9015-fc66024359ad}</GUID>
+		<ParentGUID>{3c6fdb4a-f993-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.lavag.org/</URL>
+		<Description localize="yes">LabVIEW Advanced Virtual Architects</Description>
+		<Weight>300</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">LabVIEW Wiki</Name>
+		<GUID>{431d77dc-e3c8-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{3c6fdb4a-f993-11db-8314-0800200c9a66}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://wiki.lavag.org/index.php/Home</URL>
+		<Type>None</Type>
+	</Node>
+
+
+	<Node>
+		<Name localize="yes">More Web Resources</Name>
+		<GUID>{fb6ded99-955a-4dbb-81c6-e4d32cc4fa5d}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;src=lvhelpmenu&amp;openagent&amp;code=rdlv01</URL>
+		<Description localize="yes">Opens LabVIEW Zone in a Web browser.</Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Discussion Forums</Name>
+		<GUID>{3c35466a-eedc-4813-9253-be325db8d11f}</GUID>
+		<ParentGUID>{fb6ded99-955a-4dbb-81c6-e4d32cc4fa5d}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;src=lvhelpmenu&amp;openagent&amp;code=exhut2</URL>
+		<Description localize="yes">Opens the LabVIEW discussion forums in a Web browser.</Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Training Courses</Name>
+		<GUID>{93123025-71eb-4d06-9dda-643f9920a18b}</GUID>
+		<ParentGUID>{fb6ded99-955a-4dbb-81c6-e4d32cc4fa5d}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;src=lvhelpmenu&amp;openagent&amp;code=exzn4j</URL>
+		<Description localize="yes">Displays information about LabVIEW hands-on courses in a Web browser.</Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">LabVIEW Zone</Name>
+		<GUID>{0cf908d3-ce84-4087-82d8-cb673f5dcfbd}</GUID>
+		<ParentGUID>{fb6ded99-955a-4dbb-81c6-e4d32cc4fa5d}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;src=lvhelpmenu&amp;openagent&amp;code=exfsuk</URL>
+		<Description localize="yes">Opens LabVIEW Zone in a Web browser.</Description>
+		<Weight>0</Weight>
+	</Node>
+
+
+
+	<Node>
+		<Name localize="yes">More Blogs</Name>
+		<GUID>{86c5c2e7-6946-4a74-9015-fc66024359ac}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<URL localize="yes">http://www.ni.com/blogs</URL>
+		<Description localize="yes">LabVIEW Advanced Virtual Architects</Description>
+		<Weight>300</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">NI Blog Listing</Name>
+		<GUID>{3c71979c-e3c8-11db-8314-0800200c9a66}</GUID>
+		<ParentGUID>{86c5c2e7-6946-4a74-9015-fc66024359ac}</ParentGUID>
+		<Column>2</Column>
+		<Handler>Web</Handler>
+		<Description localize="yes"></Description>
+		<URL localize="yes">http://www.ni.com/blogs</URL>
+		<Type>None</Type>
+	</Node>
+
+
+	<Node>
+		<Name localize="yes">Targets</Name>
+		<GUID>{6d128cfe-aa29-40ea-ba27-8098931c7b07}</GUID>
+		<ParentGUID>0</ParentGUID>
+		<Column>1</Column>
+		<Handler>Help</Handler>
+		<HelpFile>lvhowto.chm</HelpFile>
+		<Topic>Creating_LV_Projects.html</Topic>
+		<Description localize="yes">Specifies the target for which you want to create a project.</Description>
+		<Weight>0</Weight>
+	</Node>
+	<Node>
+		<Name localize="yes">Real-Time Project</Name>
+		<GUID>{b4de5942-3266-4e01-b888-f3e2b815c354}</GUID>
+		<ParentGUID>{6d128cfe-aa29-40ea-ba27-8098931c7b07}</ParentGUID>
+		<Column>1</Column>
+		<Handler>RingItemProjectWizard</Handler>
+		<Wizard>resource/plugins/NewDialogFiles/ProjectWizards/ProjectWizard.llb/ProjectWizard Host.vi</Wizard>
+		<WizardArg>resource/plugins/NewDialogFiles/ProjectWizards/RTNPA/RTNPA.llb/RTNPA Client.vi</WizardArg>
+	</Node>
+</Tree>
+
+
